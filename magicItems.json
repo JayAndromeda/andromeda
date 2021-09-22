@@ -1,25 +1,27 @@
 {
-  "Figurine of Wondrous Power, Ebony Fly": {
+  "Items": [
+  {
     "name": "Figurine of Wondrous Power, Ebony Fly",
-    "type": "Wondrous Item",
     "rarity": "Rare",
-    "page": "dmg 169",
-    "attunement": "no"
+    "type": "Wondrous Item",
+    "attunement": "no",
+    "page": "dmg 169"
   },
-  "Ioun Stone, Intellect": {
-    "attunement": "yes",
-    "page": "dmg 176",
+  {
+    "name": "Ioun Stone, Intellect",
     "rarity": "Very Rare",
     "type": "Wondrous Item",
-    "name": "Ioun Stone, Intellect"
+    "attunement": "yes",
+    "page": "dmg 176"
   },
-  "Gloves of Thievery": {
-    "type": "Wondrous Item",
-    "rarity": "Uncommon",
+  {
     "name": "Gloves of Thievery",
+    "rarity": "Uncommon",
+    "type": "Wondrous Item",
     "attunement": "no",
     "page": "dmg 172"
-  },
+  }
+]
   "Sword of Life Stealing": {
     "type": "Weapon",
     "name": "Sword of Life Stealing",
