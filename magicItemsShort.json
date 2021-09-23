@@ -4,21 +4,24 @@
       "name": "Figurine of Wondrous Power, Ebony Fly",
       "rarity": "Rare",
       "type": "Wondrous Item",
-      "attunement": "no",
+      "attunement": false,
+      "limits" : "none",
       "page": "dmg 169"
     },
     {
       "name": "Ioun Stone, Intellect",
       "rarity": "Very Rare",
       "type": "Wondrous Item",
-      "attunement": "yes",
+      "attunement": true,
+      "limits" : "none",
       "page": "dmg 176"
     },
     {
       "name": "Gloves of Thievery",
       "rarity": "Uncommon",
       "type": "Wondrous Item",
-      "attunement": "no",
+      "attunement": false,
+      "limits" : "none",
       "page": "dmg 172"
     }
   ]

@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace Andromeda
 {
-    class NewBaseType
+    class Application
     {
         static void Main(string[] args)
         {
@@ -14,6 +14,7 @@ namespace Andromeda
             using (StreamReader reader = new StreamReader(filePath))
             {
                 string json = reader.ReadToEnd();
+                reader.Close();
                 List<MagicItem> items = JsonConvert.DeserializeObject<List<MagicItem>>(json);
             }
         }
