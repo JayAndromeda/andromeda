@@ -10,16 +10,26 @@ namespace Andromeda
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Items items = new Items();
             string filePath = @"C:\Users\Jennifer\source\repos\Andromeda\magicItems.json";
+
 
             using (StreamReader reader = new StreamReader(filePath))
             {
                 string json = reader.ReadToEnd();
-                Items items = JsonConvert.DeserializeObject<Items>(json);
-                Console.WriteLine(items.magicItems[0].Name);
+                items = JsonConvert.DeserializeObject<Items>(json);
             }
+
+            Random random = new Random();
             
+
+            int numOfItems = Int32.Parse(args[0]);
+
+            for (int i = 0; i <= numOfItems -1; i++)
+            {
+                int randomItem = random.Next(0, items.magicItems.Length);
+                Console.WriteLine(items.magicItems[randomItem].toString());
+            }
         }
     }
 }

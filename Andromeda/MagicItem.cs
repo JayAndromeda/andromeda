@@ -12,4 +12,10 @@ public class MagicItem{
     public string Limits { get; set; }
     [JsonProperty("page")]
     public string Page { get; set; }
+
+    public string toString()
+    {
+        string output = $"{this.Name} // {this.Rarity} // {this.needsAttunement} // {this.Page}";
+        return output;
+    }
 }
