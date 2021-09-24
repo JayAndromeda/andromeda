@@ -1,11 +1,11 @@
 {
-    "Items": [
+  "Items": [
     {
       "name": "Figurine of Wondrous Power, Ebony Fly",
       "rarity": "Rare",
       "type": "Wondrous Item",
       "attunement": false,
-      "limits" : "none",
+      "limits": "none",
       "page": "dmg 169"
     },
     {
@@ -13,7 +13,7 @@
       "rarity": "Very Rare",
       "type": "Wondrous Item",
       "attunement": true,
-      "limits" : "none",
+      "limits": "none",
       "page": "dmg 176"
     },
     {
@@ -21,7 +21,7 @@
       "rarity": "Uncommon",
       "type": "Wondrous Item",
       "attunement": false,
-      "limits" : "none",
+      "limits": "none",
       "page": "dmg 172"
     }
   ]

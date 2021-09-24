@@ -14,4 +14,3 @@ C:\Users\Jennifer\source\repos\Andromeda\Andromeda\obj\Debug\net6.0\ref\Andromed
 C:\Users\Jennifer\source\repos\Andromeda\Andromeda\obj\Debug\net6.0\Andromeda.pdb
 C:\Users\Jennifer\source\repos\Andromeda\Andromeda\obj\Debug\net6.0\Andromeda.genruntimeconfig.cache
 C:\Users\Jennifer\source\repos\Andromeda\Andromeda\bin\Debug\net6.0\Newtonsoft.Json.dll
-C:\Users\Jennifer\source\repos\Andromeda\Andromeda\obj\Debug\net6.0\Andromeda.csproj.CopyComplete

@@ -56,11 +56,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Jennifer\\source\\repos\\Andromeda\\Andromeda\\Andromeda.csproj",
+      "projectUniqueName": "C:\\Users\\Jennifer\\source\\repos\\Andromeda\\Andromeda\\Andromeda.csproj",
       "projectName": "Andromeda",
-      "projectPath": "c:\\Users\\Jennifer\\source\\repos\\Andromeda\\Andromeda\\Andromeda.csproj",
+      "projectPath": "C:\\Users\\Jennifer\\source\\repos\\Andromeda\\Andromeda\\Andromeda.csproj",
       "packagesPath": "C:\\Users\\Jennifer\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Jennifer\\source\\repos\\Andromeda\\Andromeda\\obj\\",
+      "outputPath": "C:\\Users\\Jennifer\\source\\repos\\Andromeda\\Andromeda\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -116,7 +116,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.6.21355.2\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
       }
     }
   }
