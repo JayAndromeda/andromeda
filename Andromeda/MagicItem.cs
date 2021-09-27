@@ -13,7 +13,7 @@ public class MagicItem{
     [JsonProperty("page")]
     public string Page { get; set; }
 
-    public string toString()
+    public override string ToString()
     {
         string output = $"{this.Name} // {this.Rarity} // {this.needsAttunement} // {this.Page}";
         return output;
