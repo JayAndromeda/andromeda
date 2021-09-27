@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "Andromeda/1.0.0": {
+      "andromeda/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
-          "Andromeda.dll": {}
+          "andromeda.dll": {}
         }
       },
       "Newtonsoft.Json/13.0.1": {
@@ -25,7 +25,7 @@
     }
   },
   "libraries": {
-    "Andromeda/1.0.0": {
+    "andromeda/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
