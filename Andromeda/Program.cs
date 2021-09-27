@@ -24,7 +24,7 @@ namespace Andromeda
         private static Items ReadFromJson()
         {
             Items items = new Items();
-            string filePath = @"\magicItems.json";
+            string filePath = @".\magicItems.json";
 
             using (StreamReader reader = new StreamReader(filePath))
             {
