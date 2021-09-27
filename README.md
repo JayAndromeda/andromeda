@@ -1,4 +1,4 @@
-# andromeda
+# andromeda - the dnd5e random item generator
 
 # steps to build and run the app
 1. clone the repo to a desired location
