@@ -10,13 +10,10 @@ namespace Andromeda
     class Items
     {
         [JsonProperty("Items")]
-        public MagicItem[] magicItems {  get; set; }
+        public MagicItem[] magicItems { get; set; }
 
         public List<MagicItem> toList() {
-            var items = this.magicItems;
-            var list = items.ToList<MagicItem>();
-
-            return list;
+            return this.magicItems.ToList<MagicItem>();
         }
     }
 
