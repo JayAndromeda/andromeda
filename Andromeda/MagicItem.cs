@@ -7,7 +7,7 @@ public class MagicItem{
     [JsonProperty("type")]
     public string Type { get; set; }
     [JsonProperty("attunement")]
-    public bool needsAttunement { get; set; }
+    public bool NeedsAttunement { get; set; }
     [JsonProperty("limits")]
     public string Limits { get; set; }
     [JsonProperty("page")]
@@ -15,7 +15,7 @@ public class MagicItem{
 
     public override string ToString()
     {
-        string output = $"{this.Name} // {this.Rarity} // {this.needsAttunement} // {this.Page}";
+        string output = $"{this.Name} // {this.Rarity} // {this.NeedsAttunement} // {this.Page}";
         return output;
     }
 }
